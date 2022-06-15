@@ -12,7 +12,7 @@
   // MODIFICAÇÕES NO BANCO
   if(!empty($data)) {
 
-    // Criar contato
+    // Criar registro
     if($data["type"] === "create") {
 
       $dataRegistro = $data["dataRegistro"];
