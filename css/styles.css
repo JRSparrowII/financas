@@ -102,6 +102,46 @@
     max-width: 500px;
     margin: 0 auto;
   }
+/* CONFIGURAÇÕES DA TABELA */
+  .conteudo-tabela {
+    margin-top: 64px;
+}
+
+.conteudo-tabela table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+.conteudo-tabela table thead th  {
+    color: #969696;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    padding: 16px 32px 16px 32px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo-tabela table tbody td  {
+    background-color: #fff;    
+    padding: 16px 32px 16px 32px;
+    font-size: 16px;
+    color: #363f5f;    
+}
+
+.conteudo-tabela table .cor-entrada {
+    color: #33cc95;
+}
+
+.conteudo-tabela table .cor-saida {
+    color: #e52e4d;
+}
+
+.conteudo-tabela table .cor-equipamento {
+  color: #33cc95;
+}
+
 
  
   /* MOBILE */

@@ -54,7 +54,7 @@
       <p id="empty-list-text">Ainda não há movimentações financeiras, <a href="<?= $BASE_URL ?>create.php">clique aqui para adicionar</a>.</p>
     <?php endif; ?>
     
-  </div>
+    
 
 <?php
   include_once("templates/footer.php");
